@@ -7,8 +7,8 @@ spring:
   rest:
    defaultMediaType: application/json
   mongodb:
-   uri: ${MONGO_DB_URI}
-   database: ${MONGO_DB_NAME}
+   uri: mongodb://localhost:27017
+   database: todo-manage-api
    
  
  management:
